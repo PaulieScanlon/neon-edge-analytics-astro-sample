@@ -1,0 +1,18 @@
+---
+import EdgeAnalytics from '../components/edge-analytics.astro';
+
+const isProduction = import.meta.env.PROD;
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <!-- Edge Analytics -->
+    {isProduction ? <EdgeAnalytics slug='/' /> : null}
+  </head>
+  <body>
+    <main>
+      <h1>Index</h1>
+    </main>
+  </body>
+</html>

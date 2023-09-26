@@ -1,0 +1,30 @@
+{
+  "name": "neon-edge-analytics-astro-sample",
+  "version": "1.0.0",
+  "description": "A sample app for using Edge Analytics with Astro",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/neon-edge-analytics-astro-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/neon-edge-analytics-astro-sample/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/neon-edge-analytics-astro-sample#readme",
+  "dependencies": {
+    "@astrojs/vercel": "^5.0.1",
+    "@neondatabase/serverless": "^0.6.0",
+    "@vercel/edge": "^1.1.0",
+    "astro": "^3.1.4"
+  }
+}
